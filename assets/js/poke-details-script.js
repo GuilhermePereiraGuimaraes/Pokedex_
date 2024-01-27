@@ -1,12 +1,12 @@
 const pokeApiDetail = {}
 
 function backHome() {
-    location.replace("./index.html")
+    location.replace("/index.html")
 }
 
 function openOtherHtml(element) {
     localStorage.setItem("number", element.getAttribute('value'))
-    location.replace("./poke-details.html")
+    location.replace("../assets/html/poke-details.html")
 }
 function clickIdTest() {
     let idNumber = localStorage.getItem("number")
